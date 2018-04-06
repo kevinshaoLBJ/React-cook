@@ -1,0 +1,56 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 2s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 120px;
+    padding: 10px;
+    color: white;
+}
+.App Link,a{
+    text-decoration: none;
+    cursor:pointer;
+}
+
+.clear-padding-left {
+    padding-left: 0;
+}
+
+.clear-padding-right {
+    padding-right: 0;
+}
+.searchIn{
+    width:60%;
+    margin-left:20%
+}
+.searchInput{
+    display:flex;
+    flex-direction:row;
+    justify-content:center
+}
+
+.App-title {
+    font-size: 1.5em;
+}
+
+.App-intro {
+    font-size: large;
+}
+a:hover{
+    color:blue
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

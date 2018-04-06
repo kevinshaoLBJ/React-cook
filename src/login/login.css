@@ -1,0 +1,11 @@
+.loginForm{
+    border: 1px solid red;
+    width: 50%;
+    height:140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.loginForm>div{
+    width:80%;
+}
